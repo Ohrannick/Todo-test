@@ -1,0 +1,23 @@
+.inputForm {
+  display: flex;
+  align-items: center;
+}
+
+.inputTodo {
+  flex: 1;
+  margin-right: 3px;
+  border-radius: 5px;
+  height: 22px;
+}
+
+.btn {
+  margin-right: 3px;
+  border-radius: 5px;
+  height: 22px;
+  cursor: pointer;
+  box-sizing: content-box;
+  font-weight: bold;
+  background-color: rgb(153, 229, 179);
+  color: black;
+  width: 70px;
+}

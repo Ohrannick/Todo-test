@@ -1,0 +1,70 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  margin-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  background-color: lightgrey;
+  height: auto;
+  font-style: italic;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.itemDate {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.active {
+  text-decoration: line-through;
+}
+
+.btn {
+  background-color: rgb(230, 118, 137);
+  color: white;
+  margin-right: 3px;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+  box-sizing: content-box;
+  font-weight: bold;
+}
+
+.btn.btnClose {
+  background-color: rgb(153, 229, 179);
+  color: black;
+  width: 70px;
+}
+
+.btn.btnEdit {
+  background-color: rgb(144, 220, 230);
+  color: black;
+}
+
+.editTodo {
+  display: flex;
+  margin-right: 3px;
+  flex: 1
+}
+
+.inputTodo {
+  width: -webkit-fill-available;
+  background-color: lightgrey;
+  height: auto;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-style: italic;
+  box-sizing: content-box;
+}
